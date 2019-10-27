@@ -25,7 +25,6 @@ public class List {
 
         while(cur.data!=key){
             if(isEmpty()){
-                System.out.println("List is empty");
                 return;
             } else{
                 prev = cur;
