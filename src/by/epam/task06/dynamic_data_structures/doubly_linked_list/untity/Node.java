@@ -40,10 +40,10 @@ public class Node {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Node link = (Node) o;
-        return data == link.data &&
-                Objects.equals(next, link.next) &&
-                Objects.equals(prev, link.prev);
+        Node node = (Node) o;
+        return data == node.data &&
+                Objects.equals(next, node.next) &&
+                Objects.equals(prev, node.prev);
     }
 
     @Override
