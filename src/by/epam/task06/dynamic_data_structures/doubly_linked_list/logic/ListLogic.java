@@ -34,7 +34,6 @@ public class ListLogic {
         while(cur.data!=key){
             cur = cur.next;
             if(cur == null){
-                System.out.println("No element in list!");
                 return;
             }
         }
